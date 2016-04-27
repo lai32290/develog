@@ -37,7 +37,7 @@ Como o blog será hospedado em Github, então primeiro de tudo é ter uma conta 
 
 Depois que estar com a conta do Github logado, so precisa fazer um fork do [repositorio](https://github.com/willianjusten/will-jekyll-template) do template no qual vamos usar.
 
-![Fork](images/hello-jekyll-world-fork.png)
+![Fork](/images/hello-jekyll-world-fork.png)
 
 ### Passo 3 - Renomear Repositório
 
