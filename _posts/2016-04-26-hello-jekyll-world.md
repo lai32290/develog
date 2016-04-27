@@ -14,7 +14,7 @@ categories:
 
 Depois de muitas tentativas e enrolações, finalmente aqui está esse tal de blog.
 
-Essa é a minha primeira experiencia em criar blog, e esse é o meu primeiro post, sou estrangeiro, escrevo mal, pode acontecer de escrever errado (e podem rir, hehehe), mas quero escrever algo para registar os meus estudos, problemas e também compartilhar para todos das coisas que eu gosto.
+Essa é a minha primeira experiência em criar blog, e esse é o meu primeiro post, sou estrangeiro, escrevo mal, pode acontecer de escrever errado (e podem rir, hehehe), mas quero escrever algo para registar os meus estudos, problemas e também compartilhar para todos das coisas que eu gosto.
 
 Então vamos ao que interessa! Como este blog foi feito em [Jekyll](https://jekyllrb.com/), então vou falar sobre como criar o blog em Jekyll e hospedar no [Github](https://github.com), usando [template](https://github.com/willianjusten/will-jekyll-template) que o [Willian Justin](https://twitter.com/Willian_justen) criou, que também foi quem me ajudou a subir este blog.
 
