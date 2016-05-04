@@ -5,10 +5,10 @@ date: 2016-04-29 22:23:00
 image: '/assets/img/'
 description: 'Um pequeno introdução sobre chrome Extension'
 tags:
-	- javascript
-	- chrome-extension
+- javascript
+- chrome-extension
 categories:
-	- Post
+- Post
 ---
 
 Sou uma criança que sempre gostou de jogos, principalmente aqueles jogos web feito em HTML (também gostava dos Flash, mas o negócio era outra), apesar que só tinha internet discada... pi pi pi pi...... mas gostava muito de jogos feito em HTML, pois não precisam instalar, salva automático, são leve, e são online né! para aquela época, poxa vida, gráfico pra que?.
