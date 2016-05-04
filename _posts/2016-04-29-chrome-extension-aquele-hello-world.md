@@ -15,7 +15,7 @@ Sou uma criança que sempre gostou de jogos, principalmente aqueles jogos web fe
 
 Em uma dessas pesquisas de "como ficar forte" em tal jogo, acabei conhecendo uns caminhos "alternativas", tais como Greasemonkey, mesmo que eu não sabia programar, mas sempre achei isso incrivel, até que hoje estou aqui programando, e resolvi fazer plugin para facilitar uns processos na minha vida de trabalho de programador web no dia-a-dia, aproveitando que as extensões do Chrome já estão bem maduros (migrei do Firefox para Chrome, viu só?), então comecei a estudar sobre o desenvolvimento de **Chrome Extension**, e falando um pouco sobre essa tal de **Greasemonkey** e **Chrome Extension**.
 
-###Greasemonkey ou Tampermonkey###
+### Greasemonkey ou Tampermonkey
 
 Greasemonkey e Tampermonkey são plugins do browser, feitos para gerenciamento de Userscripts.
 
@@ -27,13 +27,13 @@ Mas Userscript, básicamente é um script que serve para adicionar ou alterar al
 
 Falarei baseando em Greasemonkey e Tampermonkey, que são os dois gerenciadores que já usei, mas acredito que para os outros plugins do mesmo género, as caracteristicas provavelmente serão os mesmos.
 
-####Prós####
+#### Prós
 
 Caso necessita fazer adicionar alguma ação pequena e simples ou fazer pequenos ajustes na página, como esconder blocos de propagandas chatas da página que acessa sempre.
 
 Para esses tipos de coisas rápidas, realmente é bem (Apesar que existe uns scripts na internet, que faz umas alterações cabulosas no site), pois com apenas alguns cliques no painel, já pode começar a codar para o que interessa, e tudo código será injetado quando a página alvo for carregada.
 
-####Contra####
+#### Contra
 
 A parte chata, é que todo código fica em um único documento ou arquivo se preferir, que são armazenado em um local específico misterioso (a verdade é que eu pesquisei, mas não aprofundei sobre essa questão para pode falar com tanta afirmação), os códigos são salvos em um tipo de database dele que não tem acesso fácil para o usuário (nós, desenvolvedores de script), até onde eu sei
 
@@ -43,7 +43,7 @@ Quando tiver necessidade de inserir HTML complexo na página, é muito trabalhos
 
 Para compartilhar o script com alguém que não tem plugin de Userscript instalado ou mesmo aqueles usuário mais simples de computador, que mal sabe sobre plugins para browser, dá impressão de que precisa instalar dois PROGRAMAS para realizar uma função simples, dependendo do caso.
 
-###Chrome Extension###
+### Chrome Extension
 
 O Chrome Extensionnada mais que é o plugin para Chrome, a mesma coisa do plugin do **Firefox**, são feitos em Javascript (na verdade não sei como é feito plugin do Firefox, mas acredito que seja em Javascript também), permite criar, adicionar funcionalidades poderosas ao página, igual no Userscript.
 
@@ -51,7 +51,7 @@ O legal do Chrome extension, é que de tão evoluido que o Chrome está hoje, al
 
 E claro, como o assunto é **Chrome Extension** e não **Chrome App**, vou falar sobre umas vantagens e desvantagens dele.
 
-####Prós####
+#### Prós
 
 A maior vantagem que eu senti, migrando do Userscript para Chrome Extension, é que com Chrome Extension pode criar o "projeto" (no caso, a extensão) em vários arquivos separados, como se fosse criando sites normais mesmo, criando arquivo HTML, incluindo arquivos JS e CSS com tags, sem ter que criar toda a estrutura HTML em string para ser concatenado (Autocompletes de HTML, JS, CSS; snippets e todas aquelas coisas maravilhosas do meu editor favorito entrando na cabeça), consequentemente, o código fica muito organizado e fácil de manter.
 
@@ -63,7 +63,7 @@ Para o desenvolvimento do Chrome Extension, que seria praticamente a criação d
 
 Caso tiver feito alguma extensão que ficou muito legal, e quiser compartilhar com o mundo, também pode publicar o plugin na própria loja de extensão do Chrome, onde os usuários consigam realizar uma instalação muito rápido e fácil para usar-lo.
 
-####Contra####
+#### Contra
 
 Tem vários pontos positivos, e claro que não existe algo perfeito no mundo (ou muito poucos).
 
@@ -71,7 +71,7 @@ Comparando com Userscripts, caso precisar criar algo pequeno e rápido, como sim
 
 E como é algo com possibilidades mais amplo, consequentemente requer uma curva de aprendizagem maior, mas como são todos programadores, nada que um pouco de [docs](https://developer.chrome.com/extensions) não resolva.
 
-###Conclusão###
+### Conclusão
 
 Eu resolvi escrever sobre esse assunto, pois é algo que estou estudando recentemente, não é porque eu manjo, então pode ser também que escrevi so abobrinhas, mas, vivendo e aprendendo, errando e melhorando.
 
