@@ -7,7 +7,8 @@ image: '/assets/img/'
 description: 'Um pequeno introdução sobre chrome Extension'
 tags:
 - javascript
-- chrome-extension
+- jquery
+- framework
 categories:
 - Post
 ---
