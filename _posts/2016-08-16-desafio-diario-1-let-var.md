@@ -12,21 +12,21 @@ categories:
 
 ### Introdução
 
-Sempre escuto falando que uma das melhores forma de aprender coisas novas é compartilhando as coisas que aprendeu, reforçando a idéia na cabeça dessa maneira.
+Sempre escuto falando que uma das melhores forma de aprender coisas novas é compartilhando as coisas que aprendeu, reforçando a ideia na cabeça dessa maneira.
 
 Como eu sempre tento anotar tudo que estou aprendendo, mas nem sempre consigo, resolvi criar um desafio para eu mesmo.
 
-O desafio básicamente é aprender pelo menos uma coisa por dia, durante 30 dias, independente se é uma coisa mais complexo ou algo mais simples, pois acredito que todos conhecimentos vem da junção de pequenos conhecimentos, e estarei registrandos minhas aprendizagens aqui para servir de anotação e tentar compartilhar com quem precisa, mesmo que o post pode ficar meio pequeno, mas o importante é o conteudo.
+O desafio basicamente é aprender pelo menos uma coisa por dia, durante 30 dias, independente se é uma coisa mais complexo ou algo mais simples, pois acredito que todos conhecimentos vem da junção de pequenos conhecimentos, e estarei registrando minhas aprendizagens aqui para servir de anotação e tentar compartilhar com quem precisa, mesmo que o post pode ficar meio pequeno, mas o importante é o conteúdo.
 
 Pronto, chega de filosofar.
 
-### Apredizgem
+### Aprendizagem
 
 Assunto: `Javascript`
 
 Agora em `Javascript`, temos variáveis além do tipo `var` e `const`, temos o tipo `let`.
 
-A diferença do `let`e do `var` básicamente está no escopo (ou só no escopo), onde `var` considera a função como escopo, e o `let` considera o bloco de código como escopo.
+A diferença do `let`e do `var` basicamente está no escopo (ou só no escopo), onde `var` considera a função como escopo, e o `let` considera o bloco de código como escopo.
 
 Com exemplo pode explicar melhor:
 
@@ -42,7 +42,7 @@ function printIterar() {
 printIterar();
 ```
 
-Se executar esse código, podem ver que o variável `i` imprimido no "Fora do for" será 10, isso é porque ele foi declarado do tipo `var`, então ele considera a função `printIterar` como escopo, em outras palavras, o variavel pode ser acessado dentro da função toda.
+Se executar esse código, podem ver que o variável `i` imprimido no "Fora do for" será 10, isso é porque ele foi declarado do tipo `var`, então ele considera a função `printIterar` como escopo, em outras palavras, o variável pode ser acessado dentro da função toda.
 
 ```
 function printIterar() {
@@ -56,6 +56,6 @@ function printIterar() {
 printIterar();
 ```
 
-Agora, trocando o variavel do tipo `var` para `let` e tentar executar o código, isso pode ocorrer um erro, reclamando que o variavel `i` não foi definido.
+Agora, trocando o variável do tipo `var` para `let` e tentar executar o código, isso pode ocorrer um erro, reclamando que o variável `i` não foi definido.
 
-Isso é porque variaveis do tipo `let` consideram o bloco atual como escopo, no caso é o bloco dentro do `for`, em outras palavras, ele só pode ser acessado dentro do bloco que foi definido, se variavel foi definido dentro do `if`, somente pode ser acessado dentro desse `if`.
+Isso é porque variáveis do tipo `let` consideram o bloco atual como escopo, no caso é o bloco dentro do `for`, em outras palavras, ele só pode ser acessado dentro do bloco que foi definido, se variável foi definido dentro do `if`, somente pode ser acessado dentro desse `if`.
