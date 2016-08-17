@@ -32,7 +32,7 @@ A diferença do `let`e do `var` basicamente está no escopo (ou só no escopo), 
 
 Com exemplo pode explicar melhor:
 
-```
+```javascript
 function printIterar() {
     for(var i = 0; i < 10; i++) {
         console.log('Dentro do for', i);
@@ -46,7 +46,7 @@ printIterar();
 
 Se executar esse código, podem ver que o variável `i` imprimido no "Fora do for" será 10, isso é porque ele foi declarado do tipo `var`, então ele considera a função `printIterar` como escopo, em outras palavras, o variável pode ser acessado dentro da função toda.
 
-```
+```javascript
 function printIterar() {
     for(let i = 0; i < 10; i++) {
         console.log('Dentro do for', i);
