@@ -10,6 +10,8 @@ categories:
 - Post
 ---
 
+![Desafio](/images/desafio.jpg)
+
 ### Introdução
 
 Sempre escuto falando que uma das melhores forma de aprender coisas novas é compartilhando as coisas que aprendeu, reforçando a ideia na cabeça dessa maneira.
