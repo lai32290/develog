@@ -12,7 +12,7 @@ categories:
 - Post
 ---
 
-![Arrow](/images/bow-arrow.jpg)
+<img src="/images/bow-arrow.jpg" alt="Arrow" style="width: 100%;">
 
 Antes de tudo, vale lembrar que o meu desafio, [Aprender todos os dias, durante 30 dias]({% post_url 2016-08-16-desafio-diario-1-let-var%}), já foi para saco logo no segundo dia, porque eu não consegui aprender nada e não queria tapar buraco com coisas que aprendi nos dias anteriores.
 
