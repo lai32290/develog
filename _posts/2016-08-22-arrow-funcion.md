@@ -16,7 +16,7 @@ Antes de tudo, vale lembrar que o meu desafio, [Aprender todos os dias, durante 
 
 Mas eu vou falar sobre `Arrow Function` essa vez.
 
-`Arrow Function` básicamente é algo muito lindo, que tem no `ES6`, que permite fazer as funções de uma forma mais curta, e mais algumas coisas.
+`Arrow Function` basicamente é algo muito lindo, que tem no `ES6`, que permite fazer as funções de uma forma mais curta, e mais algumas coisas.
 
 Supondo que temos a função `square`, feito da seguinte forma:
 
@@ -37,7 +37,7 @@ var n1 = 2;
 var n2 = square(n1);
 ```
 
-> Mas so substituiu o `function` pelo `=>`?
+> Mas só substituiu o `function` pelo `=>`?
 
 Não, quando a função só tem uma linha, não são necessário os `{ }`:
 
@@ -53,7 +53,7 @@ E digo mais, quando a função só tem uma linha, não é necessário ter o `ret
 var square = (num) => num * num;
 ```
 
-E digo maaaiiis ainda, quando a função possui somente um parametro, os `( )` não são necessários:
+E digo maaaiiis ainda, quando a função possui somente um parâmetro, os `( )` não são necessários:
 
 ```javascript
 var square = num => num * num;
@@ -75,7 +75,7 @@ var n1 = 2;
 var n2 = square(n1);
 ```
 
-> Interessante, mas quando preciso calcular `square`, `soma` ou coisas do tipo, ainda prefico fazer `var n2 = n1 * n1` direto no código, e não em função separado.
+> Interessante, mas quando preciso calcular `square`, `soma` ou coisas do tipo, ainda prefiro fazer `var n2 = n1 * n1` direto no código, e não em função separado.
 
 A função `square` foi só um exemplo para facilitar a explicação do sintaxe do `Arrow Function`, vou mostrar como isso pode ficar mais interessante ainda.
 
@@ -116,7 +116,7 @@ var p2 = products
 console.log(p1, p2);
 ```
 
-Sim, a gente transformou um código de 7 linhas em 3, essa combinação de funções `map`, `reduce`, `filter` pode ser bastante comum nas manipulações de dados e pode diminuir bastante código usando `Arrow Function`, além de tornar o código mais legivel.
+Sim, a gente transformou um código de 7 linhas em 3, essa combinação de funções `map`, `reduce`, `filter` pode ser bastante comum nas manipulações de dados e pode diminuir bastante código usando `Arrow Function`, além de tornar o código mais legível.
 
 Maaaasss, lembra daquele "e mais algumas coisas" que falei no começo?
 
@@ -158,4 +158,4 @@ var p = new Product();
 p.getIt();
 ```
 
-Agora o valor imprimido é o `Product`, porque o `Arrow Function` não é atribuido um novo escopo. Isso pode eliminar muitos usos de `bind`, ou talvez pode gerar mais possibilidades na linguagem, isso é so o que eu acho.
+Agora o valor imprimido é o `Product`, porque o `Arrow Function` não é atribuído um novo escopo. Isso pode eliminar muitos usos de `bind`, ou talvez pode gerar mais possibilidades na linguagem, isso é só o que eu acho.
