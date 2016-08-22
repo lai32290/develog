@@ -12,6 +12,8 @@ categories:
 - Post
 ---
 
+![Arrow](/images/bow-arrow.jpg)
+
 Antes de tudo, vale lembrar que o meu desafio, [Aprender todos os dias, durante 30 dias]({% post_url 2016-08-16-desafio-diario-1-let-var%}), já foi para saco logo no segundo dia, porque eu não consegui aprender nada e não queria tapar buraco com coisas que aprendi nos dias anteriores.
 
 Mas eu vou falar sobre `Arrow Function` essa vez.
