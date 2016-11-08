@@ -15,13 +15,13 @@ categories:
 
 Esse é um post GSRO (Guia Super Rápido e Objetivo), então tentarei sei bem objetivo, e sem muitas enrolações.
  
- # Namespace no PHP
- 
  ## O que é namespace no PHP?
+ 
  `Namespace` no PHP é algo parecido com isso:
  <img src="/images/gsro-php-namespace.png" alt="PHP Namespace" style="width: 100%;">
  
 ## Pra que serve?
+ 
  Serve para evitar problemas quando tiver usando duas classes com mesmo nome, é meio parecido com `Sobrenome` na sala de aula,
  pode existir mais de uma pessoa que chama **João**, então na chamada, a professora não vai chamar só **João**, 
  mas pelo nome com o sobrenome, João Paulo, João do Santos, etc... pra ter certeza de qual esta chamando.
@@ -29,9 +29,11 @@ Esse é um post GSRO (Guia Super Rápido e Objetivo), então tentarei sei bem ob
  A mesma coisa para código, ter o sobrenome para caso tenha duas classes com o mesmo nome.
  
  ## Como declarar?
+ 
  Namespace é sempre declarado fora de qualquer classe, como mostrado na imagem a cima.
  
  #### Exemplos:
+ 
  ```php
 <?php
  namespace App\Http\Controllers;
@@ -42,14 +44,17 @@ Esse é um post GSRO (Guia Super Rápido e Objetivo), então tentarei sei bem ob
  ```
 
 ## Como chamar a classe com Namespace?
+
 Para chamar a classe, deve chamar pelo nome completo
 ```php
 <?php
 
 $grso = new App\Http\Controllers\GrsoController();
 ```
+
 Isso é muito trabalhoso pra ficar chamando toda hora, existe uma forma mais curta de fazer isso, 
 que é esclarecendo a classe antes de usar, com a palavra `use`:
+
 ```php
 <?php
 
@@ -62,7 +67,8 @@ $grso4 = new GrsoController();
 // agora posso instanciar um milhão de objetos, sem repetir aquele nome grande
 ```
 
-Mas e se mesmo somente o nome da classe já é grande, pode definir um `alias` (apelido) para ele.
+Mas e se mesmo somente o nome da classe já é grande, pode definir um `alias` (apelido) para ele, tipo chamar a 
+**Carolina** de **Carol** ou chamar a irmã de **Tata**.
 
 <img src="/images/mohammadpourkarkaragh.jpg" alt="Mohammadpourkarkaragh" />
 
@@ -75,5 +81,4 @@ $grso = new Grso();
 $grso2 = new Grso();
 $grso3 = new Grso();
 $grso4 = new Grso();
-// agora posso instanciar um milhão de objetos, sem repetir aquele nome grande
 ```
