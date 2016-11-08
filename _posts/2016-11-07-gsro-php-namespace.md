@@ -15,7 +15,7 @@ categories:
 
 Esse é um post GSRO (Guia Super Rápido e Objetivo), então tentarei sei bem objetivo, e sem muitas enrolações.
  
- ## O que é namespace no PHP?
+## O que é namespace no PHP?
  
  `Namespace` no PHP é algo parecido com isso:
  <img src="/images/gsro-php-namespace.png" alt="PHP Namespace" style="width: 100%;">
