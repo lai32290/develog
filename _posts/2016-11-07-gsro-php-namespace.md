@@ -32,9 +32,8 @@ Esse é um post GSRO (Guia Super Rápido e Objetivo), então tentarei sei bem ob
  
  Namespace é sempre declarado fora de qualquer classe, como mostrado na imagem a cima.
  
- #### Exemplos:
- 
  ```php
+
 <?php
  namespace App\Http\Controllers;
  
@@ -47,6 +46,7 @@ Esse é um post GSRO (Guia Super Rápido e Objetivo), então tentarei sei bem ob
 
 Para chamar a classe, deve chamar pelo nome completo
 ```php
+
 <?php
 
 $grso = new App\Http\Controllers\GrsoController();
@@ -56,6 +56,7 @@ Isso é muito trabalhoso pra ficar chamando toda hora, existe uma forma mais cur
 que é esclarecendo a classe antes de usar, com a palavra `use`:
 
 ```php
+
 <?php
 
 use App\Http\Controllers\GrsoController;
