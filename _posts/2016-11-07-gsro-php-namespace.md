@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2016-11-07 21:53:00 -0300
-title: [GSRO] - PHP Namespace
+title: GSRO - PHP Namespace
 
 description: 'Namespace no PHP pra que?'
 tags:
