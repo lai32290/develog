@@ -45,6 +45,7 @@ Esse é um post GSRO (Guia Super Rápido e Objetivo), então tentarei sei bem ob
 ## Como chamar a classe com Namespace?
 
 Para chamar a classe, deve chamar pelo nome completo
+
 ```php
 
 <?php
