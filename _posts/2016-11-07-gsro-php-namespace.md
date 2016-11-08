@@ -28,11 +28,11 @@ Esse é um post GSRO (Guia Super Rápido e Objetivo), então tentarei sei bem ob
  
  A mesma coisa para código, ter o sobrenome para caso tenha duas classes com o mesmo nome.
  
- ## Como declarar?
+## Como declarar?
  
  Namespace é sempre declarado fora de qualquer classe, como mostrado na imagem a cima.
  
- ```php
+```php
 
 <?php
  namespace App\Http\Controllers;
@@ -40,7 +40,7 @@ Esse é um post GSRO (Guia Super Rápido e Objetivo), então tentarei sei bem ob
  class GrsoController {
      // codigos da classe
  }
- ```
+```
 
 ## Como chamar a classe com Namespace?
 
